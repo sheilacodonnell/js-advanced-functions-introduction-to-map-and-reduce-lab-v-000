@@ -19,5 +19,5 @@ function mapToSquare(numbers) {
 function reduceToTotal(numbers) {
   numbers.reduce((accumulator, currentValue) => {
     return accumulator + currentValue;
-  }, 0);
+  });
 }
