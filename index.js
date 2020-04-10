@@ -23,6 +23,6 @@ function reduceToTotal(numbers, startingPoint = 0) {
 }
 
 function reduceToAllTrue(numbers) {
-  return numbers.reduce(
+  return numbers.reduce(numbers, currentValue
     )
 }
