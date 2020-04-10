@@ -21,7 +21,7 @@ function mapToSquare(numbers) {
 //   });
 // }
 
-function reduceToTotal(sourceArray, startingPoint=0) {
+function reduceToTotal(sourceArray, startingPoint = 0) {
     if (startingPoint) {
         return sourceArray.reduce(function(total, currentValue) {
             return total + currentValue
