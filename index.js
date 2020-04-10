@@ -15,7 +15,6 @@ function mapToSquare(numbers) {
   return numbers.map(n => n * n)
 }
 
-
 function reduceToTotal(numbers, startingPoint = 0) {
   return numbers.reduce(
     function(total, currentValue) {
