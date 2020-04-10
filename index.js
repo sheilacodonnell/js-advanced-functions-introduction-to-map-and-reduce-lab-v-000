@@ -15,8 +15,20 @@ function mapToSquare(numbers) {
   return numbers.map(n => n * n)
 }
 
-function reduceToTotal(numbers) {
-  numbers.reduce((accumulator, currentValue) => {
-    return accumulator + currentValue;
-  });
+// function reduceToTotal(numbers) {
+//   numbers.reduce((accumulator, currentValue) => {
+//     return accumulator + currentValue;
+//   });
+// }
+
+function reduceToTotal(sourceArray, startingPoint) {
+    if (startingPoint) {
+        return sourceArray.reduce(function(total, currentValue) {
+            return total + currentValue
+        }, startingPoint)
+    } else {
+        return sourceArray.reduce(function(total, currentValue) {
+            return total + currentValue
+        })
+    }
 }
