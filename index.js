@@ -21,3 +21,9 @@ function reduceToTotal(numbers) {
     return accumulator + currentValue;
   });
 }
+
+	const reduceToTotal = (arr, num = 0) => {
+    let total = num
+    for (const x of arr) { total += parseInt(x) }
+    return total
+}
