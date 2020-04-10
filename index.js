@@ -1,3 +1,5 @@
 const numbers = [1,2,3,4]
 
-const mapToNegativize = numbers.map(n => -n )
+function mapToNegativize(numbers) {
+  return numbers.map(n => -n )
+}
