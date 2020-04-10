@@ -15,3 +15,7 @@ function mapToDouble(numbers) {
 function mapToSquare(numbers) {
   return numbers.map(n => n * n)
 }
+
+function reduceToTotal(numbers) {
+  
+}
