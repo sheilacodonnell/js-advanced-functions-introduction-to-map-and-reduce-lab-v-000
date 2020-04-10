@@ -23,8 +23,7 @@ function mapToSquare(numbers) {
 
 function reduceToTotal(numbers, startingPoint = 0) {
     
-  return numbers.reduce(function(total, currentValue) {
-            return total + currentValue
-        }, startingPoint)
-
+  return numbers.reduce(
+    function(total, currentValue) {
+      return total + currentValue}, startingPoint)
 }
