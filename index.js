@@ -7,3 +7,7 @@ function mapToNegativize(numbers) {
 function mapToNoChange(numbers) {
   return numbers.map(n => n)
 }
+
+function mapToDouble(numbers) {
+  return numbers.map(n => n * 2)
+}
