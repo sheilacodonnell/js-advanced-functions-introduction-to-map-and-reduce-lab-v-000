@@ -4,4 +4,6 @@ function mapToNegativize(numbers) {
   return numbers.map(n => -n )
 }
 
-function 
+function mapToNoChange(numbers) {
+  return numbers.map(n => n)
+}
