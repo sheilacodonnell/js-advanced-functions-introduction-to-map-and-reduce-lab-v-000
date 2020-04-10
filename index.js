@@ -31,3 +31,13 @@ function reduceToAllTrue(numbers) {
         }
     })
 }
+
+function reduceToAllTrue(numbers) {
+    return numbers.reduce(function(total, currentValue) {
+        if (currentValue) {
+            return true
+        } else {
+            return false
+        }
+    })
+}
