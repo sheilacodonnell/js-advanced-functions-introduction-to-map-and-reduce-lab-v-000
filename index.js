@@ -17,5 +17,5 @@ function mapToSquare(numbers) {
 }
 
 function reduceToTotal(numbers) {
-  numbers.reduce()
+  numbers.reduce(0)
 }
