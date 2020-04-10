@@ -32,7 +32,7 @@ function reduceToAllTrue(numbers) {
     })
 }
 
-function reduceToAllTrue(numbers) {
+function reduceToAnyTrue(numbers) {
     return numbers.reduce(function(total, currentValue) {
         if (currentValue) {
             return true
