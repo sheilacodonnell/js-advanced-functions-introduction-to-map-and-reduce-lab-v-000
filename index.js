@@ -22,3 +22,7 @@ function reduceToTotal(numbers, startingPoint = 0) {
       return total + currentValue}, startingPoint)
 }
 
+function reduceToAllTrue(numbers) {
+  return numbers.reduce(
+    )
+}
