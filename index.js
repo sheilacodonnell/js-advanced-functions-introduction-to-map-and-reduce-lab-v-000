@@ -26,9 +26,6 @@ function reduceToTotal(sourceArray, startingPoint = 0) {
         return sourceArray.reduce(function(total, currentValue) {
             return total + currentValue
         }, startingPoint)
-    } else {
-        return sourceArray.reduce(function(total, currentValue) {
-            return total + currentValue
-        })
     }
+
 }
