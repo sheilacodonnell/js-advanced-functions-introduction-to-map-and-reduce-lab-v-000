@@ -11,3 +11,7 @@ function mapToNoChange(numbers) {
 function mapToDouble(numbers) {
   return numbers.map(n => n * 2)
 }
+
+function mapToSquare(numbers) {
+  return numbers.map(n => n * n)
+}
